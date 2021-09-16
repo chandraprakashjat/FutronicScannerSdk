@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Futronic Biometric</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="capture_biometric">Capture Biometric</string>
+    <string name="biometric_instruction">Please put Finger on Furtonic biometric scanner before capture Biometric</string>
+    <string name="biometric_verify_instruction">Please put Finger on Furtonic biometric scanner before verify Biometric</string>
+    <string name="no_capture">Can not start capture operation.\\nCan\'t open scanner device</string>
+    <string name="cant_open">Can\'t open scanner device</string>
+    <string name="deny_device">User deny scanner device</string>
+    <string name="put_finger">Put finger on scanner</string>
+    <string name="verify_biometric">Verify Biometric</string>
+    <string name="infor_msg">Can not start verify template operation.\\nCan\'t open scanner device</string>
+    <string name="launch_from_fabric">Please launch Futronic Biometric Scanner App from Fabric !</string>
+    <string-array name="FingerNameArray">
+        <item>Unknown finger</item>
+        <item>Right thumb</item>
+        <item>Right index finger</item>
+        <item>Right middle finger</item>
+        <item>Right ring finger</item>
+        <item>Right little finger</item>
+        <item>Left thumb</item>
+        <item>Left index finger</item>
+        <item>Left middle finger</item>
+        <item>Left ring finger</item>
+        <item>Left little finger</item>
+    </string-array>
+    <string-array name="MatchScoreArray">
+        <item>Low</item>
+        <item>Low medium</item>
+        <item>Medium</item>
+        <item>High medium</item>
+        <item>High</item>
+        <item>Very high</item>
+    </string-array>
+</resources>

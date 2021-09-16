@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:androidHelper:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/androidHelper/build/.transforms/87ba4e8713eb9e8d3491fc6b5611bf43/androidHelper-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/androidHelper/build/.transforms/87ba4e8713eb9e8d3491fc6b5611bf43/androidHelper-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
