@@ -5,12 +5,12 @@ import android.app.AlertDialog
 import android.content.DialogInterface
 import android.content.Intent
 import android.graphics.Bitmap
-import android.os.Bundle
-import android.os.Handler
-import android.os.Message
-import android.os.SystemClock
+import android.net.Uri
+import android.os.*
+import android.provider.Settings
 import android.view.View
 import android.widget.Toast
+import android.widget.Toast.LENGTH_SHORT
 import android.widget.Toast.makeText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -39,6 +39,7 @@ class VerifyActivity : AppCompatActivity()
     val MESSAGE_SHOW_IMAGE = 2
     val MESSAGE_SHOW_ERROR_MSG = 3
     val MESSAGE_END_OPERATION = 4
+    val MESSAGE_SUCCESSFULL =5
 
     //Pending operations
 
@@ -90,6 +91,21 @@ class VerifyActivity : AppCompatActivity()
 
                 return@OnClickListener
             }
+
+            if (Build.VERSION.SDK_INT >= 30)
+            {
+
+                if(!Environment.isExternalStorageManager())
+                {
+                    val intent = Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION)
+                    val uri = Uri.fromParts("package", packageName, null)
+                    intent.setData(uri)
+                    startActivity(intent)
+                    Toast.makeText(applicationContext, "Please enable Manage External Storage permission!", Toast.LENGTH_SHORT).show()
+
+                    return@OnClickListener
+                }
+            }
             if (true) {
                 if (usb_host_ctx?.OpenDevice(0, true)==true) {
                     StartVerifyTemplate()
@@ -135,19 +151,24 @@ class VerifyActivity : AppCompatActivity()
                 MESSAGE_SHOW_MSG -> {
                     val showMsg = msg.obj as String
                     setInfoText(showMsg,false);
+
                 }
 
                 MESSAGE_SHOW_ERROR_MSG -> {
                     val showErr = msg.obj as String
                     setInfoText(showErr,true);
+
                 }
 
                 MESSAGE_SHOW_IMAGE ->
                 {
                     imageView_verify.setImageBitmap(mBitmapFP)
-                    onSuccessfullyVerify()
+
                 }
-                MESSAGE_END_OPERATION -> EndOperation()
+
+                MESSAGE_SUCCESSFULL -> onSuccessfullyVerify()
+                MESSAGE_END_OPERATION -> {EndOperation()
+                     }
 
                 UsbDeviceDataExchangeImpl.MESSAGE_ALLOW_DEVICE ->
                 {
@@ -159,10 +180,12 @@ class VerifyActivity : AppCompatActivity()
                     } else {
                         setInfoText(getString(R.string.cant_open),true);
                     }
+
                 }
 
                 UsbDeviceDataExchangeImpl.MESSAGE_DENY_DEVICE -> {
                     setInfoText(getString(R.string.deny_device),true);
+
                 }
             }
         }
@@ -290,7 +313,8 @@ class VerifyActivity : AppCompatActivity()
                     if (ansi_lib!!.VerifyTemplate(mFinger, mTmpl, img_buffer, matchResult)) {
                         val op_time = SystemClock.uptimeMillis() - lT1
 
-                        val op_info = String.format("Verify done. Result: %s(%f). Time is %d(ms)", if (matchResult[0] > mMatchScore) "OK" else "FAILED", matchResult[0], op_time)
+                        val op_info = String.format("Verify done. Result: %s(%f). Time is %d(ms)",
+                                if (matchResult[0] > mMatchScore) "OK" else "FAILED", matchResult[0], op_time ,"Please Try again.")
                         mHandler.obtainMessage(MESSAGE_SHOW_MSG, -1, -1, op_info).sendToTarget()
 
                         mBitmapFP = CreateFingerBitmap(
@@ -298,6 +322,12 @@ class VerifyActivity : AppCompatActivity()
                                 ansi_lib!!.GetImageHeight(),
                                 img_buffer)
                         mHandler.obtainMessage(MESSAGE_SHOW_IMAGE).sendToTarget()
+
+                        if (matchResult[0] > mMatchScore)
+                        {
+                            mHandler.obtainMessage(MESSAGE_SUCCESSFULL).sendToTarget()
+                        }
+
                         break
                     } else {
                         val lastError = ansi_lib!!.GetErrorCode()

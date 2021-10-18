@@ -1,0 +1,254 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:2:1-52:12
+MERGED from [:androidHelper] D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\androidHelper\build\.transforms\87ba4e8713eb9e8d3491fc6b5611bf43\androidHelper-release\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\0c4d7c72760f9517e1722af8fa75efa1\navigation-ui-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\21b8bba707e12633b4b87a106b2b106d\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\81394c1bafe474d5e689810955bc6c28\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6050ddd251c16280abe43cdc615d910c\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\de1dd520f9f74b7e172dfeb66d265f99\navigation-fragment-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\b512917a3d4ad7610dacb03f4e61739a\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\a2f8fde93f46a917ffd569217e6c20f0\appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\28b493a3b042b1864817ab483d2f8df8\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\68a1fda64204e400c9a2690493011584\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\226bb87cdc402edd90fd959df5d23bd7\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ddf01913423483ef819f5ee21326ef30\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\2a3943c48008405168d8841e0e0f77fc\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\e7a997e2ca6662bb78e61a919bb9685d\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6392d60bb2132d1ce49564c3a1c93db6\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\cc11cb6efd32b41e9e50b1f464d9e1bb\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6e6df6b89a101086a8d710d5639693da\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\18abfdf03ae2dcc174ebb7c2789b82ea\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\42d9f5de66934b88a57f412d3bbc203b\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\1acae97ffd58f5acf28c428c13bb717e\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\5f655177a8984440f6c3df63f628e581\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\bcdb60403aff0e3dff29abdc5e085c6c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\3644b2010e33e4ae426ad4d59cffac17\navigation-runtime-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\58ffdac89d77399efa45e0189419f3a9\activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\22e9d2b5ede1ab73bf4f015d00fedc6d\navigation-common-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ed39d5b144d9e717018815a8db93908d\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\31203507dcc8eecfdeaf1efa5950ea41\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\cbbe70e6abd81762f56430f5c2c4e280\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\61f0a4a3c8bfee8b7f8615723ab96eac\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6052254da51be4e1e1125cc18f80df7b\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ffb2f999b01c135cfaa4f28375262aa7\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\468610b94641c670014ea1c9659d49ad\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6720fbb33512d939e4c516a04bd9cd61\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6c05b95cec9823f83c52a1c8c6203292\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\5b7c81a7329340a191f605857c25688a\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\5f728c156be18e90d77f5e306c2ed7be\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\1815a254ee8750e6c967571c4a99a8ac\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\d74549d4b36a1ba5212ee2cab40f89e2\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\2fa40f7e619e848b0edd4ecf06793ece\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:2:1-52:12
+	package
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+		INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:8:22-79
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:9:22-72
+application
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:12:5-50:19
+MERGED from [:androidHelper] D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\androidHelper\build\.transforms\87ba4e8713eb9e8d3491fc6b5611bf43\androidHelper-release\AndroidManifest.xml:13:5-14:19
+MERGED from [:androidHelper] D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\androidHelper\build\.transforms\87ba4e8713eb9e8d3491fc6b5611bf43\androidHelper-release\AndroidManifest.xml:13:5-14:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\21b8bba707e12633b4b87a106b2b106d\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\21b8bba707e12633b4b87a106b2b106d\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\81394c1bafe474d5e689810955bc6c28\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\81394c1bafe474d5e689810955bc6c28\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.1] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ed39d5b144d9e717018815a8db93908d\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ed39d5b144d9e717018815a8db93908d\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\31203507dcc8eecfdeaf1efa5950ea41\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\31203507dcc8eecfdeaf1efa5950ea41\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:16:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ed39d5b144d9e717018815a8db93908d\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:14:9-38
+	android:allowBackup
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:17:9-40
+	android:usesCleartextTraffic
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:18:9-44
+activity#com.example.ftransisdkdemo_android.LauncherActivity
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:19:9-27:20
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:19:19-85
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:20:13-26:29
+action#android.intent.action.MAIN
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:23:27-74
+category#android.intent.category.DEFAULT
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:25:27-73
+activity#com.example.ftransisdkdemo_android.capture.CaptureActivity
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:28:9-36:20
+	android:label
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:30:13-45
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:29:13-86
+intent-filter#action:name:android.intent.action.MAIN+action:name:com.futronic.biometric.SCANNER+category:name:android.intent.category.DEFAULT
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:31:13-35:29
+action#com.futronic.biometric.SCANNER
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:33:17-73
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:33:25-70
+activity#com.example.ftransisdkdemo_android.verify.VerifyActivity
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:37:9-45:20
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:37:19-90
+intent-filter#action:name:android.intent.action.MAIN+action:name:com.futronic.biometric.VERIFY+category:name:android.intent.category.DEFAULT
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:38:13-44:29
+action#com.futronic.biometric.VERIFY
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:43:17-72
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:43:25-69
+activity#com.futronic.biometric.AskTemplateName
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:46:9-48:59
+	android:theme
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:47:13-44
+activity#com.futronic.biometric.SelectTemplateName
+ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:49:9-56
+	android:name
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml:49:19-53
+uses-sdk
+INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+MERGED from [:androidHelper] D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\androidHelper\build\.transforms\87ba4e8713eb9e8d3491fc6b5611bf43\androidHelper-release\AndroidManifest.xml:7:5-9:41
+MERGED from [:androidHelper] D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\androidHelper\build\.transforms\87ba4e8713eb9e8d3491fc6b5611bf43\androidHelper-release\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\0c4d7c72760f9517e1722af8fa75efa1\navigation-ui-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\0c4d7c72760f9517e1722af8fa75efa1\navigation-ui-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\21b8bba707e12633b4b87a106b2b106d\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\21b8bba707e12633b4b87a106b2b106d\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\81394c1bafe474d5e689810955bc6c28\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\81394c1bafe474d5e689810955bc6c28\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6050ddd251c16280abe43cdc615d910c\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6050ddd251c16280abe43cdc615d910c\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\de1dd520f9f74b7e172dfeb66d265f99\navigation-fragment-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\de1dd520f9f74b7e172dfeb66d265f99\navigation-fragment-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\b512917a3d4ad7610dacb03f4e61739a\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\b512917a3d4ad7610dacb03f4e61739a\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\a2f8fde93f46a917ffd569217e6c20f0\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\a2f8fde93f46a917ffd569217e6c20f0\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\28b493a3b042b1864817ab483d2f8df8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\28b493a3b042b1864817ab483d2f8df8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\68a1fda64204e400c9a2690493011584\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\68a1fda64204e400c9a2690493011584\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\226bb87cdc402edd90fd959df5d23bd7\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\226bb87cdc402edd90fd959df5d23bd7\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ddf01913423483ef819f5ee21326ef30\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ddf01913423483ef819f5ee21326ef30\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\2a3943c48008405168d8841e0e0f77fc\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\2a3943c48008405168d8841e0e0f77fc\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\e7a997e2ca6662bb78e61a919bb9685d\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\e7a997e2ca6662bb78e61a919bb9685d\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6392d60bb2132d1ce49564c3a1c93db6\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6392d60bb2132d1ce49564c3a1c93db6\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\cc11cb6efd32b41e9e50b1f464d9e1bb\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\cc11cb6efd32b41e9e50b1f464d9e1bb\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6e6df6b89a101086a8d710d5639693da\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6e6df6b89a101086a8d710d5639693da\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\18abfdf03ae2dcc174ebb7c2789b82ea\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\18abfdf03ae2dcc174ebb7c2789b82ea\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\42d9f5de66934b88a57f412d3bbc203b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\42d9f5de66934b88a57f412d3bbc203b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\1acae97ffd58f5acf28c428c13bb717e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\1acae97ffd58f5acf28c428c13bb717e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\5f655177a8984440f6c3df63f628e581\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\5f655177a8984440f6c3df63f628e581\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\bcdb60403aff0e3dff29abdc5e085c6c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\bcdb60403aff0e3dff29abdc5e085c6c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\3644b2010e33e4ae426ad4d59cffac17\navigation-runtime-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\3644b2010e33e4ae426ad4d59cffac17\navigation-runtime-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\58ffdac89d77399efa45e0189419f3a9\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\58ffdac89d77399efa45e0189419f3a9\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\22e9d2b5ede1ab73bf4f015d00fedc6d\navigation-common-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\22e9d2b5ede1ab73bf4f015d00fedc6d\navigation-common-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ed39d5b144d9e717018815a8db93908d\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ed39d5b144d9e717018815a8db93908d\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\31203507dcc8eecfdeaf1efa5950ea41\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\31203507dcc8eecfdeaf1efa5950ea41\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\cbbe70e6abd81762f56430f5c2c4e280\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\cbbe70e6abd81762f56430f5c2c4e280\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\61f0a4a3c8bfee8b7f8615723ab96eac\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\61f0a4a3c8bfee8b7f8615723ab96eac\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6052254da51be4e1e1125cc18f80df7b\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6052254da51be4e1e1125cc18f80df7b\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ffb2f999b01c135cfaa4f28375262aa7\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\ffb2f999b01c135cfaa4f28375262aa7\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\468610b94641c670014ea1c9659d49ad\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\468610b94641c670014ea1c9659d49ad\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6720fbb33512d939e4c516a04bd9cd61\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6720fbb33512d939e4c516a04bd9cd61\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6c05b95cec9823f83c52a1c8c6203292\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\6c05b95cec9823f83c52a1c8c6203292\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\5b7c81a7329340a191f605857c25688a\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\5b7c81a7329340a191f605857c25688a\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\5f728c156be18e90d77f5e306c2ed7be\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\5f728c156be18e90d77f5e306c2ed7be\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\1815a254ee8750e6c967571c4a99a8ac\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\1815a254ee8750e6c967571c4a99a8ac\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\d74549d4b36a1ba5212ee2cab40f89e2\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\d74549d4b36a1ba5212ee2cab40f89e2\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\2fa40f7e619e848b0edd4ecf06793ece\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\G_NSEIT\.gradle\caches\transforms-2\files-2.1\2fa40f7e619e848b0edd4ecf06793ece\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+		INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+		ADDED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+		INJECTED from D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\ftrAnsiSDKDemo_Android\src\main\AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from [:androidHelper] D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\androidHelper\build\.transforms\87ba4e8713eb9e8d3491fc6b5611bf43\androidHelper-release\AndroidManifest.xml:11:5-62
+	android:name
+		ADDED from [:androidHelper] D:\NSE_IT\Biometric_SDK\Futronic\AnsiSDKDemo_AndroidStudio_2020.11.06\source\AnsiSDKDemo_AndroidStudio\androidHelper\build\.transforms\87ba4e8713eb9e8d3491fc6b5611bf43\androidHelper-release\AndroidManifest.xml:11:19-59
