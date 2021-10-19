@@ -5,10 +5,6 @@ import android.app.AlertDialog
 import android.content.DialogInterface
 import android.content.Intent
 import android.graphics.*
-import android.os.Bundle
-import android.os.Handler
-import android.os.Message
-import android.os.SystemClock
 import android.provider.CalendarContract
 import android.view.View
 import android.widget.Toast
@@ -25,6 +21,16 @@ import com.futronictech.UsbDeviceDataExchangeImpl
 import kotlinx.android.synthetic.main.capture_layout.*
 import java.io.File
 import java.io.FileOutputStream
+import android.net.Uri.fromParts
+import android.provider.Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION
+import androidx.core.app.ComponentActivity.ExtraData
+import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import androidx.core.content.ContextCompat.getSystemService
+import android.R.attr.name
+import android.net.Uri
+import android.os.*
+import android.provider.Settings
+
 
 class CaptureActivity :AppCompatActivity()
 {
@@ -53,7 +59,7 @@ class CaptureActivity :AppCompatActivity()
     override fun onCreate(savedInstanceState: Bundle?)
     {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.capture_layout)
+        setContentView(com.futronic.biometric.R.layout.capture_layout)
         usb_host_ctx = UsbDeviceDataExchangeImpl(this, mHandler)
         mSyncDir = this.getExternalFilesDir(null)
 
@@ -76,6 +82,26 @@ class CaptureActivity :AppCompatActivity()
                 return@OnClickListener
             }
 
+
+
+
+            if (Build.VERSION.SDK_INT >= 30)
+            {
+
+                if(!Environment.isExternalStorageManager())
+                {
+                    val intent = Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION)
+                    val uri = Uri.fromParts("package", packageName, null)
+                    intent.setData(uri)
+                    startActivity(intent)
+                    Toast.makeText(applicationContext, "Please enable Manage External Storage permission!", Toast.LENGTH_SHORT).show()
+
+                    return@OnClickListener
+                }
+            }
+
+
+
             if (true) {
                 if (usb_host_ctx?.OpenDevice(0, true)==true) {
                     StartCapture()
@@ -84,7 +110,7 @@ class CaptureActivity :AppCompatActivity()
                         mPendingOperation = OPERATION_CAPTURE
                     } else {
 
-                        setInfoText(getString(R.string.no_capture),true);
+                        setInfoText(getString(com.futronic.biometric.R.string.no_capture),true);
                     }
                 }
             } else {
@@ -101,12 +127,12 @@ class CaptureActivity :AppCompatActivity()
        // var icon:Int;
         if (isError)
         {
-            textView_error.setTextColor(ContextCompat.getColor(this, R.color.red));
+            textView_error.setTextColor(ContextCompat.getColor(this, com.futronic.biometric.R.color.red));
             //icon=R.drawable.error
         }
         else
         {
-            textView_error.setTextColor(ContextCompat.getColor(this, R.color.black));
+            textView_error.setTextColor(ContextCompat.getColor(this, com.futronic.biometric.R.color.black));
             //icon= 0
         }
         textView_error.setCompoundDrawablesWithIntrinsicBounds(0, 0,0, 0)
@@ -142,12 +168,12 @@ class CaptureActivity :AppCompatActivity()
                             OPERATION_CAPTURE -> StartCapture()
                         }
                     } else {
-                        setInfoText(getString(R.string.cant_open),true);
+                        setInfoText(getString(com.futronic.biometric.R.string.cant_open),true);
                     }
                 }
 
                 UsbDeviceDataExchangeImpl.MESSAGE_DENY_DEVICE -> {
-                    setInfoText(getString(R.string.deny_device),true);
+                    setInfoText(getString(com.futronic.biometric.R.string.deny_device),true);
                 }
             }
         }
@@ -165,7 +191,7 @@ class CaptureActivity :AppCompatActivity()
 
 
     private fun PrepareOperation() {
-        setInfoText(getString(R.string.put_finger),false);
+        setInfoText(getString(com.futronic.biometric.R.string.put_finger),false);
         EnableControls(false)
     }
 
@@ -307,7 +333,7 @@ class CaptureActivity :AppCompatActivity()
 ///////////////////////
 
     private fun StartCreate() {
-        var tmplName = mDbDir + "/" + System.currentTimeMillis();
+        var tmplName =  getFilename(System.currentTimeMillis().toString());
 
         PrepareOperation()
         mOperationThread = CreateThread(
@@ -436,7 +462,7 @@ class CaptureActivity :AppCompatActivity()
         }
 
         private fun SaveTemplate(name: String, template: ByteArray, size: Int) {
-            captureBiometricPath = name
+
             var fs: FileOutputStream? = null
             var f: File? = null
 
@@ -448,7 +474,7 @@ class CaptureActivity :AppCompatActivity()
                 System.arraycopy(template, 0, writeTemplate, 0, size)
                 fs.write(writeTemplate)
                 fs.close()
-
+                captureBiometricPath = name
                 sendPatAndExit(11)
             } catch (e: Exception) {
                 val error = String.format("Failed to save template to file %s. Error: %s.", name, e.toString())
@@ -472,14 +498,23 @@ class CaptureActivity :AppCompatActivity()
     }
     private fun sendPatAndExit(requestCode:Int)
     {
-        val intent = Intent()
-        val bundle = Bundle()
-        bundle.putBoolean("success", true)
-        bundle.putInt("code", 0)
-        bundle.putString("path", captureBiometricPath)
-        intent.putExtras(bundle)
-        setResult(requestCode, intent)
-        finish();
+
+        if(captureBiometricPath!=null && captureBiometricPath.isNotEmpty())
+        {
+            val intent = Intent()
+            val bundle = Bundle()
+            bundle.putBoolean("success", true)
+            bundle.putInt("code", 0)
+            bundle.putString("path", captureBiometricPath)
+            intent.putExtras(bundle)
+            setResult(requestCode, intent)
+            finish();
+        }else
+        {
+            Toast.makeText(this,"Biometric File not stored. Please Enable Storage permission and Capture Again",Toast.LENGTH_LONG).show();
+        }
+
+
 
 
     }
@@ -501,5 +536,15 @@ class CaptureActivity :AppCompatActivity()
     }
 
 
+    private fun getFilename(s: String): String {
+        val filepath = Environment.getExternalStorageDirectory().path
+        val file = File(filepath, "BiometricScanner")
+
+        if (!file.exists()) {
+            file.mkdirs()
+        }
+
+        return file.absolutePath + "/" + s
+    }
 
 }

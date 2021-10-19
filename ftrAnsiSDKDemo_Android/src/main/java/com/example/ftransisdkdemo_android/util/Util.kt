@@ -9,6 +9,7 @@ import com.example.ftransisdkdemo_android.AppException
 import java.io.File
 import androidx.core.app.ActivityCompat.requestPermissions
 import android.os.Build
+import android.os.Environment
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 
@@ -59,6 +60,17 @@ fun CreateFingerBitmap(imgWidth: Int, imgHeight: Int, imgBytes: ByteArray): Bitm
     }
     szDbDir = Dir.absolutePath
     return szDbDir
+}
+
+private fun getFilename(s: String): String {
+    val filepath = Environment.getExternalStorageDirectory().path
+    val file = File(filepath, "BiometricScanner")
+
+    if (!file.exists()) {
+        file.mkdirs()
+    }
+
+    return file.absolutePath + "/" + s
 }
 
 
