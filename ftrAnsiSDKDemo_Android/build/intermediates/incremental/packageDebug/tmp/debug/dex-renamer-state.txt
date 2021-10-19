@@ -1,0 +1,4 @@
+#Thu Oct 14 14:30:03 IST 2021
+base.0=D\:\\NSE_IT\\Biometric_SDK\\Futronic\\AnsiSDKDemo_AndroidStudio_2020.11.06\\source\\AnsiSDKDemo_AndroidStudio\\ftrAnsiSDKDemo_Android\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
